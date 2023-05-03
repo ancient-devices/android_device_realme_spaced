@@ -14,6 +14,14 @@ $(call inherit-product, device/realme/spaced/device.mk)
 # Inherit some common AncientOS stuff.
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
+# Ancient Stuff
+TARGET_BOOT_ANIMATION_RES := 1080
+ANCIENT_OFFICIAL=true
+ANCIENT_GAPPS=true
+TARGET_FACE_UNLOCK_SUPPORTED =: true
+TARGET_SUPPORTS_QUICK_TAP := true
+
+
 PRODUCT_NAME := ancient_spaced
 PRODUCT_DEVICE := spaced
 PRODUCT_MANUFACTURER := Realme
