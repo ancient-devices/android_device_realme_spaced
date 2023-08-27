@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_spaced.mk
+    $(LOCAL_DIR)/ancient_spaced.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_spaced-user \
-    lineage_spaced-userdebug \
-    lineage_spaced-eng
+    ancient_spaced-user \
+    ancient_spaced-userdebug \
+    ancient_spaced-eng
