@@ -484,6 +484,12 @@
       "Node": "GPUMaxFreq",
       "Duration": 0,
       "Value": "703000"
+    },
+    {
+      "PowerHint": "DISPLAY_INACTIVE",
+      "Node": "TAUclampMin",
+      "Duration": 0,
+      "Value": "0"
     }
   ]
 }
